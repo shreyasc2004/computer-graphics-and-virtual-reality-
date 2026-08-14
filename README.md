@@ -8,7 +8,7 @@ SHREYAS C 1RVU23CSE443
 
 Implementation of the DDA (Digital Differential Analyzer) and Bresenham's line drawing algorithms using OpenGL (GLFW).
 
-- `experiment1.py` — DDA and Bresenham line drawing algorithms
+- `CG-LAB1-443.py` — DDA and Bresenham line drawing algorithms
 
 ![Experiment 1](CG-LAB1-443.png)
 
@@ -16,6 +16,6 @@ Implementation of the DDA (Digital Differential Analyzer) and Bresenham's line d
 
 Implementation of the Midpoint Circle Drawing Algorithm using OpenGL (GLFW).
 
-- `experiment2.py` — Midpoint circle drawing algorithm
+- `CG-LAB2-443.py` — Midpoint circle drawing algorithm
 
 ![Experiment 2](CG-LAB2-443.png)
