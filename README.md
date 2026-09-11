@@ -68,6 +68,10 @@ The transformations include:
 
 The program demonstrates how transformation matrices can be applied to 2D objects.
 
+**Output:**
+
+![Experiment 3](CG-LAB2-443.png)
+
 ---
 
 ## Experiment 4: Composite Transformations
@@ -79,6 +83,10 @@ Multiple transformations are combined and applied to graphical objects using tra
 **Program:**
 
 - `CD-LAB4-443.py`
+
+  **Output:**
+
+![Experiment 2](CGVR-LAB4-443.png)
 
 ---
 
