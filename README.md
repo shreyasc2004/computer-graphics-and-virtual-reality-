@@ -70,7 +70,7 @@ The program demonstrates how transformation matrices can be applied to 2D object
 
 **Output:**
 
-![Experiment 3](CG-LAB2-443.png)
+![Experiment 3](CGVR-LAB3-443.png)
 
 ---
 
