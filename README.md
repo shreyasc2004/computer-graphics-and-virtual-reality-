@@ -102,7 +102,7 @@ The algorithm uses region codes to determine whether a line lies:
 
 **Output:**
 
-![Experiment 5](CGVR-LAB5.png)
+![Experiment 5](CGVR-LAB5-443.png)
 
 **Program:**
 
@@ -156,7 +156,7 @@ The experiment demonstrates the programmable graphics pipeline using:
 
 **Output:**
 
-![Experiment 8](CGVR-LAB8.png)
+![Experiment 8](CGVR-LAB8-443.png)
 
 ---
 
