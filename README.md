@@ -116,9 +116,13 @@ Implementation of the Z-buffer algorithm for hidden surface removal.
 
 The Z-buffer algorithm determines which surface is visible at each pixel by comparing the depth values of different surfaces.
 
+**Output:**
+
+![Experiment 6](CGVR-LAB6-443.png)
+
 **Program:**
 
-- `CD-LAB6-443.py`
+- `CGVR-LAB6-443.py`
 
 ---
 
@@ -134,9 +138,13 @@ The Phong model considers three components of illumination:
 
 The model is used to produce realistic lighting effects on 3D objects.
 
+**Output:**
+
+![Experiment 7](CGVR-LAB7-443.png)
+
 **Program:**
 
-- `CD-LAB7-443.py`
+- `CGVR-LAB7-443.py`
 
 ---
 
