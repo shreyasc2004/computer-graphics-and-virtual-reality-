@@ -172,37 +172,72 @@ The experiment demonstrates the programmable graphics pipeline using:
 
 Creation of a simple interactive 3D scene using Unity.
 
-The experiment demonstrates basic 3D scene creation, object manipulation, camera setup and interaction.
+The experiment demonstrates:
+
+- Player movement and jumping using a character controller
+- Obstacles, rotating objects and collectible items
+- A camera that follows the player
+- An on-screen collectible counter and completion message
+
+**Program:**
+
+- Unity project folder: [unity_interactive_scene_lab9](unity_interactive_scene_lab9/)
+- Scene setup: [LabSceneAutoSetup_lab9.cs](unity_interactive_scene_lab9/Assets/Editor/LabSceneAutoSetup_lab9.cs)
+- Player movement: [PlayerController_lab9.cs](unity_interactive_scene_lab9/Assets/Scripts/PlayerController_lab9.cs)
+- Camera follow: [CameraFollow_lab9.cs](unity_interactive_scene_lab9/Assets/Scripts/CameraFollow_lab9.cs)
+- Collectibles: [Collectible_lab9.cs](unity_interactive_scene_lab9/Assets/Scripts/Collectible_lab9.cs)
+- Object rotation: [RotatingObject_lab9.cs](unity_interactive_scene_lab9/Assets/Scripts/RotatingObject_lab9.cs)
+- On-screen display: [GameHUD_lab9.cs](unity_interactive_scene_lab9/Assets/Scripts/GameHUD_lab9.cs)
+
+**Controls:**
+
+- WASD / Arrow keys: move
+- Space: jump
+- R: reset the player position
+- Esc: quit the built application
 
 **Output:**
 
-![Experiment 9](CGVR-LAB4.png)
+The scene contains a player, obstacles, rotating cubes and five collectibles. Collecting all five displays the completion message. A screenshot for this experiment has not been added to the repository.
 
 ---
 
 ## Experiment 10: 3D Viewing Pipeline
 
-Implementation of the 3D viewing pipeline for displaying 3D objects on a 2D screen.
+Implementation of the 3D viewing pipeline using Python, Pygame and OpenGL, with an additional Unity version.
+
+A rotating cube with six coloured faces is displayed in two viewports: orthographic projection on the left and perspective projection on the right.
 
 The experiment covers:
 
-- 3D projection
+- Model transformation
 - View transformation
-- Projection transformation
+- Orthographic and perspective projection
 - Viewport mapping
-- Display of 3D objects on a 2D screen
+- Depth testing for hidden surface removal
 
 **Program:**
 
-- `CD-LAB10-443.py`
+- Python program: [3d_viewing_pipeline_lab10.py](lab10/3d_viewing_pipeline_lab10.py)
+- Jupyter notebook: [3d_viewing_pipeline_lab10.ipynb](lab10/3d_viewing_pipeline_lab10.ipynb)
+- Unity project and instructions: [Unity_3D_Viewing_Pipeline](lab10/Unity_3D_Viewing_Pipeline/README.md)
+- Unity script: [Lab10ViewingPipelineDemo.cs](lab10/Unity_3D_Viewing_Pipeline/Assets/Scripts/Lab10ViewingPipelineDemo.cs)
+
+**Output:**
+
+![Experiment 10 - 3D viewing pipeline, output 1](lab10/3d_viewing_pipeline_output_1_lab10.png)
+
+![Experiment 10 - 3D viewing pipeline, output 2](lab10/3d_viewing_pipeline_output_2_lab10.png)
 
 ---
 
 # Technologies Used
 
 - Python
+- C#
 - OpenGL
 - GLFW
+- Pygame
 - Unity
 - Computer Graphics Algorithms
 - Homogeneous Transformation Matrices
@@ -233,8 +268,28 @@ computer-graphics-and-virtual-reality/
 ├── CD-LAB8-443.py
 ├── CGVR-LAB8.png
 │
-├── CGVR-LAB4.png
+├── unity_interactive_scene_lab9/
+│   ├── Assets/
+│   │   ├── Editor/LabSceneAutoSetup_lab9.cs
+│   │   └── Scripts/
+│   │       ├── PlayerController_lab9.cs
+│   │       ├── CameraFollow_lab9.cs
+│   │       ├── Collectible_lab9.cs
+│   │       ├── RotatingObject_lab9.cs
+│   │       └── GameHUD_lab9.cs
+│   ├── Packages/
+│   └── ProjectSettings/
 │
-├── CD-LAB10-443.py
+├── lab10/
+│   ├── 3d_viewing_pipeline_lab10.py
+│   ├── 3d_viewing_pipeline_lab10.ipynb
+│   ├── 3d_viewing_pipeline_output_1_lab10.png
+│   ├── 3d_viewing_pipeline_output_2_lab10.png
+│   └── Unity_3D_Viewing_Pipeline/
+│       ├── Assets/
+│       ├── Packages/
+│       ├── ProjectSettings/
+│       └── README.md
 │
 └── README.md
+```
